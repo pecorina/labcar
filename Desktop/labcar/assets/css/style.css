@@ -52,9 +52,6 @@ body{
 .celñaw{
 	background-color: #f7b617;
 	height: 500px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    border-right: 1px solid white; 
 }
 .cell{
     padding: 55px;
@@ -70,8 +67,10 @@ body{
 
 .cuadrito{
 	background-color: transparent;
-	border-color: white;
-	border: 5px;
+	border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+
 }
 
 .manejando{
@@ -85,12 +84,34 @@ body{
 	display: flex;
 	align-items: stretch;
 }
-.cajatrans{
+.cuatro{
+	color: white;
 	background-color: black;
 	margin-top: 90px;
-	height: 400px;
+	height: 300px;
 	width: 500px;
     padding: 25px;
     padding-left: 25px;
     margin-left: 650px;
+    opacity: 90%;
+}
+.conduc{
+	background-color: #f7b617;
+	color: white;
+}
+.geo{
+	background-color: #f7b617;
+	color:white;
+	height: 500px;
+}
+
+hr{
+	background-color: white;
+
+}
+.footer{
+	background-color: #2b2b2b;
+	height: 500px;
+	color: white;
+	text-decoration: none;
 }
