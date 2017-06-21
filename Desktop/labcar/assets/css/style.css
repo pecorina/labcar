@@ -2,21 +2,23 @@
 #2b2b2b gris footer*/
 
 body{
-    background-image: url(../img/taxi.jpg);
-    background-repeat: no-repeat;
     height: 1000px;
 	margin: 0;
 	padding: 0;
 
 }
-
+.ventana{
+	background-image: url(../img/taxi.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+	background-size: cover;
+	height: 700px;
+}
 .vanner{
 	background-color: white;
-	height: 70px;
-
 }
 .login{
-	border-top: 10px;
+	padding: 20px;
 }
 .portada{
 	margin: 0;
@@ -29,16 +31,17 @@ body{
 }
 
 .amarillito{
-	width: 600px;
-	height: 500px;
+	width: 590px;
+	height: 350px;
 	background-color: #f7b617;
 	color: white;
 	text-align: left;
-	margin-top: 70px;
-    padding: 20px;
+	margin-top: 90px;
+    padding: 25px;
     padding-left: 25px;
-    margin-left: 45px;
+    margin-left: 650px;
 }
+
 
 .inputs{
 	background-color: white;
@@ -49,8 +52,9 @@ body{
 .celñaw{
 	background-color: #f7b617;
 	height: 500px;
-    margin-top: 200px;
-    
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white; 
 }
 .cell{
     padding: 55px;
@@ -58,5 +62,35 @@ body{
 }
 .texti{
    color: white;
+   display: flex;
+   flex-direction: column;
+   margin-top: 60px;
+
 }
 
+.cuadrito{
+	background-color: transparent;
+	border-color: white;
+	border: 5px;
+}
+
+.manejando{
+	background-image: url(../img/conduce.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+	background-size: cover;
+	height: 900px;
+}
+.largo{
+	display: flex;
+	align-items: stretch;
+}
+.cajatrans{
+	background-color: black;
+	margin-top: 90px;
+	height: 400px;
+	width: 500px;
+    padding: 25px;
+    padding-left: 25px;
+    margin-left: 650px;
+}
