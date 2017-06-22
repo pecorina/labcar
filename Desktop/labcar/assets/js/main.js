@@ -17,7 +17,7 @@ funcionExito: seejecuta solo cuando el usuario comparte su ubicación.
 funcionError: se ejecuta cuando se produce un error en la geolocalizacion.*/
 	}
 }
-document.getElementById("encuentrame").addEventListener("click", buscar);
+document.getElementById("trazo").addEventListener("click", buscar);
 var latitud, longitud;
 
 /*obtendremos nuestra latitud o longitud y ademas crearemos un marcador de nuestra ubicacion*/
