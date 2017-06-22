@@ -86,14 +86,16 @@ body{
 }
 .cuatro{
 	color: white;
-	background-color: black;
-	margin-top: 90px;
-	height: 300px;
+	height: 400px;
 	width: 500px;
     padding: 25px;
-    padding-left: 25px;
     margin-left: 650px;
-    opacity: 90%;
+    margin-top: 0;
+}
+.cuatrito{
+	margin-top: 20px;
+	background-color: black;
+	height: 200px;
 }
 .conduc{
 	background-color: #f7b617;
@@ -113,14 +115,16 @@ hr{
 	background-color: #2b2b2b;
 	height: 500px;
 	color: white;
-	
     padding: 50px 10px;
 }
 
-
-a{
-    color: white;
-    text-decoration: none;
+.mapsi{
+	background-color: #f7b617;
+	color: white;
+}
+.trazo{
+	background-color: white;
+	color: black;
 }
 .pie{
 	align-content: center;
